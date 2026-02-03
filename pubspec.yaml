@@ -1,0 +1,48 @@
+name: login
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  shared_preferences: ^2.2.2
+
+  flutter_localizations:
+    sdk: flutter
+
+  provider: ^6.0.5
+
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+  firebase_auth: ^6.1.3
+
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon_app.png"
+  adaptive_icon_background: "#1976D2"
+  adaptive_icon_foreground: assets/icons/icon_app.png
+
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/image/

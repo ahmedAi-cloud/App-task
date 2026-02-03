@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "settings": "Settings",
+  "login": "Login",
+  "signup": "Sign Up",
+  "welcomeBack": "Welcome Back",
+  "email": "Email",
+  "password": "Password",
+  "language": "Language",
+  "darkMode": "Dark Mode",
+  "logout": "Logout"
+}
